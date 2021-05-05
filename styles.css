@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,300&display=swap');
 main {
     height: 100%;
     top: 0;
     bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 
 footer {
@@ -13,14 +16,13 @@ footer {
     width: auto;
     left: 0;
     right: 0;
-    font: 500 12px Roboto,"Helvetica Neue",sans-serif;
+    font: 500 12px 'Montserrat', sans-serif;
     display: flex;
     justify-content: left;
     align-items: center;
     z-index: 10;
     padding: 0 10px;
 }
-
 .link-clicked{
     color: aqua;
 }
