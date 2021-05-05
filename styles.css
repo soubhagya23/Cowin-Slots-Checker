@@ -15,7 +15,7 @@ footer {
     right: 0;
     font: 500 12px Roboto,"Helvetica Neue",sans-serif;
     display: flex;
-    justify-content: flex-end;
+    justify-content: left;
     align-items: center;
     z-index: 10;
     padding: 0 10px;
