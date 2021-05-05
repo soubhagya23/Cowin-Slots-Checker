@@ -26,14 +26,20 @@
 	<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
 		<a class="navbar-brand mx-auto" href="#">CoWIN Slots Checker</a>
 	</nav>
+	
 	<div class="mt-5 py-4">
-		<ul class="list-group-item mb-0">
-			This may be useful if you are registered for the vaccine on <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-WIN</a> and are struggling to find a center with an available slot in your district.<br>
-		</br>	Once you find an available slot, book the slots from the official portal for <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-WIN</a> Registration
-		</ul>
 		
+		<ul class="list-group-item mb-0">
+			<b>This may be useful if you are registered for the vaccine on <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-WIN</a> and are struggling to find a center with an available slot in your district.<br>
+		</br>	Once you find an available slot, book the slots from the official portal for <a href="https://selfregistration.cowin.gov.in/" target="_blank">Co-WIN</a> Registration</b>
+
+		</ul>
+	
 	</div>
-	<div class="addthis_inline_follow_toolbox"></div>
+	<div>
+
+
+	</div>
 	<form class="container mb-4" onsubmit="check()">
 		<div class="row mb-2">
 			<div class="col-md-6">
@@ -51,7 +57,7 @@
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<label for="date" class="form-label">Date (mm-dd-yyyy):</label>
+				<label for="date" class="form-label">Date (dd-mm-yyyy):</label>
 				<input type="date" id="date" class="form-control">
 			</div>
 			<div class="col-md-6">
@@ -69,7 +75,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<label class="form-label">&nbsp;</label><br>
-				<input type="button" class="btn btn-outline-dark" value="Fetch Available Centers" onclick="check()">
+				<input type="button" class="btn btn-outline-primary" value="Fetch Available Centers" onclick="check()">
 			</div>
 		</div>
 	</form>
