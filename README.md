@@ -3,4 +3,5 @@ Check CoWIN vaccine center(s) availability
 
 https://slots-checker.vercel.app/
 
-Contributors: Neeply, Madhavgupta and Soubhagya
+The API Might Get Stucked Sometime! Have Patience
+Thanks For Visiting
